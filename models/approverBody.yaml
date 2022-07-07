@@ -1,4 +1,14 @@
 type: object
+x-examples:
+  example-1:
+    comment: Your request is approved
+    approvalStatus: Approved
+    catalogItemId: 8a2e820781617ccf01818d0f0ce32fe0
+    catalogItemName: comprehend
+    subscriptionId: 8a2e941581617b980181d58ff6ac58e7
+    subscriptionName: Mobile App
+    requestorName: Leor Brenman
+    requestorEmail: leor.brenman@gmail.com
 properties:
   comment:
     type: string
@@ -16,13 +26,5 @@ properties:
     type: string
   requestorEmail:
     type: string
-x-examples:
-  example-1:
-    comment: Your request is approved
-    approvalStatus: Approved
-    catalogItemId: 8a2e820781617ccf01818d0f0ce32fe0
-    catalogItemName: comprehend
-    subscriptionId: 8a2e941581617b980181d58ff6ac58e7
-    subscriptionName: Mobile App
-    requestorName: Leor Brenman
-    requestorEmail: leor.brenman@gmail.com
+  createUserId:
+    type: string
